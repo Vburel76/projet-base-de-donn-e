@@ -3,7 +3,6 @@ body {
   padding: 0;
 }
 
-<<<<<<< HEAD
 navPosition {
   display: flex;
   list-style-type: none;
@@ -17,15 +16,12 @@ nav {
 footer {
   height: 25vh;
   background-color: black;
+  color: white;
+
+  display: flex;
+
 }
 
 main {
   height: 65vh;
 }
-=======
-navPosition{
-    display: flex;
-
-    
-}
->>>>>>> 6fa11e7d8dc3190f7d99b2dba3fa1b3eea1a4989
