@@ -3,15 +3,30 @@ body {
   padding: 0;
 }
 
-<<<<<<< HEAD
 navPosition {
   display: flex;
   list-style-type: none;
 }
+.navPosition2{
+display: flex;
+justify-content: space-between;
+font-size: 2rem;
+}
+
+.textPosition{
+margin-top: 1.2rem;
+margin: 1rem;
+}
+.textPosition2{
+    margin-right: 2rem;
+}
+
+
 
 nav {
-  height: 10vh;
+  
   background-color: black;
+  color: white;
 }
 
 footer {
@@ -22,10 +37,3 @@ footer {
 main {
   height: 65vh;
 }
-=======
-navPosition{
-    display: flex;
-
-    
-}
->>>>>>> 6fa11e7d8dc3190f7d99b2dba3fa1b3eea1a4989
