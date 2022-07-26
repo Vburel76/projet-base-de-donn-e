@@ -10,11 +10,13 @@
 </head>
 
 <body>
-<?php include 'parts/navbar.php' ?>
+ 
+
+    <?php include "parts/navbar.php" ?>
 
 
 <main>
-    
+
 </main>
 
 
