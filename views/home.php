@@ -1,3 +1,9 @@
+<?php
+
+require '../controllers/home-controller.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -10,17 +16,19 @@
 </head>
 
 <body>
- 
 
     <?php include "parts/navbar.php" ?>
 
+    <main>
+        <?php foreach ($arrayDestinations as $key => $value) { ?>
+            <div>
+                <img class="card" src="../public/img/<?= $value['picture'] ?>">
+            </div>
+        <?php } ?>
+    </main>
 
-<main>
 
-</main>
-
-
-<?php include 'parts/footer.php' ?>
+    <?php include 'parts/footer.php' ?>
 
 </body>
 

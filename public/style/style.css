@@ -7,22 +7,21 @@ navPosition {
   display: flex;
   list-style-type: none;
 }
-.navPosition2{
-display: flex;
-justify-content: space-between;
-font-size: 2rem;
+.navPosition2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
 }
 
-.textPosition{
-margin-top: 1.2rem;
-margin: 1rem;
+.textPosition {
+  margin-top: 1.2rem;
+  margin: 1rem;
 }
-.textPosition2{
-    margin-right: 2rem;
+.textPosition2 {
+  margin-right: 2rem;
 }
 
 nav {
-  
   background-color: black;
   color: white;
 }
@@ -33,9 +32,14 @@ footer {
   color: white;
 
   display: flex;
-
 }
 
 main {
   height: 65vh;
+}
+
+/* STYLE DES CARDS */
+img.card {
+  width: 10rem;
+  height: auto;
 }
