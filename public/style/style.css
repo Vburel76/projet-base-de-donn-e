@@ -1,9 +1,23 @@
 body {
-    background-color: aquamarine;
+  background-color: aquamarine;
+  padding: 0;
 }
 
-navPosition{
-    display: flex;
-    list-style-type: none;
-    
+navPosition {
+  display: flex;
+  list-style-type: none;
+}
+
+nav {
+  height: 10vh;
+  background-color: black;
+}
+
+footer {
+  height: 25vh;
+  background-color: black;
+}
+
+main {
+  height: 65vh;
 }

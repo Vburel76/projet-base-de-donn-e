@@ -10,23 +10,15 @@
 </head>
 
 <body>
-    <h1>Travel Corp</h1>
-
-    <nav>
-        <div class="navPosition">
-            <ul class="navPosition">
-                <a>Amérique</a>
-                <a>Europe</a>
-                <a>Asie</a>
-                <a>Océanie</a>
-                <a>Afrique</a>
-            </ul>
-        </div>
-    </nav>
+<?php include 'parts/navbar.php' ?>
 
 
+<main>
+    
+</main>
 
 
+<?php include 'parts/footer.php' ?>
 
 </body>
 
